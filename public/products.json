@@ -1,0 +1,38 @@
+[
+    {
+        "id": 1,
+        "name": "Car engine plug",
+        "price": 20.00,
+        "img": "https://i.ibb.co/kcFdt09/1.png"
+    },
+    {
+        "id": 2,
+        "name": "Car engine plug",
+        "price": 20.00,
+        "img": "https://i.ibb.co/86VjWJL/2.png"
+    },
+    {
+        "id": 3,
+        "name": "Car air filter",
+        "price": 20.00,
+        "img": "https://i.ibb.co/M1HT0kJ/3.png"
+    },
+    {
+        "id": 4,
+        "name": "Cools red light",
+        "price": 20.00,
+        "img": "https://i.ibb.co/PmzR8yz/4.png"
+    },
+    {
+        "id": 5,
+        "name": "Cools red light",
+        "price": 20.00,
+        "img": "https://i.ibb.co/QQkCsGv/5.png"
+    },
+    {
+        "id": 6,
+        "name": "Cools red light",
+        "price": 20.00,
+        "img": "https://i.ibb.co/WPKR5sd/6.png"
+    }
+]
