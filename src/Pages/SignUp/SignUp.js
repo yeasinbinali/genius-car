@@ -1,5 +1,6 @@
 import React, { useContext } from "react";
 import { Link, useNavigate } from "react-router-dom";
+import { authJWT } from "../../api/authJWT";
 import { AuthContext } from "../../contexts/AuthProvider/AuthProvider";
 import img from '../../images/images/login/login.svg'
 
@@ -18,7 +19,7 @@ const SignUp = () => {
         createUser(email, password)
         .then((result) => {
           const user = result.user;
-          console.log(user);
+          authJWT(user);
           navigate('/');
         })
         .catch(err => console.error(err));
