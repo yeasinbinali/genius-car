@@ -20,7 +20,7 @@ const Products = () => {
           humour, or randomised words which don't look even slightly believable.
         </small>
       </div>
-      <div className='grid lg:grid-cols-3 md:grid-cols-2 gap-5'>
+      <div className='grid lg:grid-cols-3 md:grid-cols-2 grid-cols-2 gap-5 mt-5'>
           {
               products.map(product => <ProductItem
                 key = {product.id}

@@ -14,7 +14,7 @@ const Feathers = () => {
                 <h1 className='text-4xl font-bold my-2'>Why Choose Us</h1>
                 <small>The majority have suffered alteration in some form, by injected humour, or randomised words which don't look even slightly believable.</small>
             </div>
-            <div className='grid lg:grid-cols-6 md:grid-cols-3 sm:grid-cols-2 gap-10'>
+            <div className='grid lg:grid-cols-6 md:grid-cols-3 grid-cols-2 gap-10'>
                 <div className='border-2 p-2'>
                     <img className='w-100 mx-auto' src={img1} alt='' />
                     <h5 className='text-center mt-2'>Expert Team</h5>

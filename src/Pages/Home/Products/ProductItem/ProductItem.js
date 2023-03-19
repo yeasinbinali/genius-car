@@ -6,8 +6,8 @@ import { faStar } from '@fortawesome/free-solid-svg-icons'
 const ProductItem = ({ product }) => {
   const { img, name, price } = product;
   return (
-    <div className="card w-76 bg-base-100 shadow-xl w-100 mx-auto">
-      <figure className="px-10 pt-10">
+    <div className="card w-76 bg-base-100 shadow-xl w-100 mx-auto mt-5">
+      <figure className="lg:px-10 lg:pt-10">
         <img
           src={img}
           alt="Shoes"
@@ -20,7 +20,7 @@ const ProductItem = ({ product }) => {
         <FontAwesomeIcon icon={faStar} />
         <FontAwesomeIcon icon={faStar} />
         <FontAwesomeIcon icon={faStar} /></p>
-        <h2 className="card-title">{name}</h2>
+        <h2 className="card-title md:text-3xl text-1xl">{name}</h2>
         <p className='text-orange-600 font-bold'>${price}.00</p>
       </div>
     </div>
